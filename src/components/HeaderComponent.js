@@ -7,7 +7,7 @@ import logo from "../images/MyFitnessColorado_AppBar.jpg";
 function HeaderComponent() {
   return (
     <Fragment>
-      <AppBar position="static">
+      <AppBar position="static" style={{ background: '#ffffff' }}>
         <Toolbar>
 		  <img src={logo} className="App-logo" alt="logo" />
           <Typography variant="headline" color="inherit">
