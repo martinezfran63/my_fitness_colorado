@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Workouts from './pages/workouts.js';
 import Nutrition from './pages/nutrition.js';
 import Contact from './pages/contact.js';
+import Lost from './pages/lost.js';
 import './App.css';
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/workouts" component={Workouts} />
         <Route path="/nutrition" component={Nutrition} />
         <Route path="/contact" component={Contact} />
+        <Route component={Lost}/>
       </Switch>
     </Router>
   );
