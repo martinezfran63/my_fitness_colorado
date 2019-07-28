@@ -9,8 +9,7 @@ import Nutrition from "./pages/nutrition.js";
 import Contact from "./pages/contact.js";
 import Lost from "./pages/lost.js";
 import Home from "./pages/home.js";
-import HeaderComponent from "./components/HeaderComponent.js";
-import FooterComponent from "./components/FooterComponent.js";
+import {HeaderComponent, FooterComponent} from './components';
 import "./App.css";
 
 
