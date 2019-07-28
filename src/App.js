@@ -10,7 +10,6 @@ import Contact from "./pages/contact.js";
 import Lost from "./pages/lost.js";
 import Home from "./pages/home.js";
 import HeaderComponent from "./components/HeaderComponent.js";
-import withStyles from "./components/withStyles.js";
 import "./App.css";
 
 
@@ -19,7 +18,6 @@ class App extends React.Component {
     return (
       <Router>
         <HeaderComponent />
-        <withStyles />
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/workouts" component={Workouts} />
