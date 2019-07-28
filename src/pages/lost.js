@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from "../logo.svg";
+import bear_404 from "../bear-404.jpg";
 
 class Lost extends React.Component {
   render() {
     return (
       <div>
-        <p>Are you lost?</p>
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>404 - Sorry this page is not found</h1>
+        <img src={bear_404} className="App-logo" alt="logo" />
       </div>
     );
   }
