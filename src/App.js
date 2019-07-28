@@ -2,16 +2,15 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Component
+  Route
 } from "react-router-dom";
 import Workouts from "./pages/workouts.js";
 import Nutrition from "./pages/nutrition.js";
 import Contact from "./pages/contact.js";
 import Lost from "./pages/lost.js";
+import Home from "./pages/index.js";
 import "./App.css";
 
-const Home = () => <div> main page </div>;
 
 class App extends React.Component {
   render() {
