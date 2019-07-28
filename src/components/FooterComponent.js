@@ -1,17 +1,17 @@
-import React from "react";
-import { Paper, Tabs, Tab } from "@material-ui/core";
+import React, { Fragment } from 'react'
+import { Tabs, Tab } from "@material-ui/core";
+import { SocialIcon } from 'react-social-icons';
+
 
 function FooterComponent() {
   return (
-    <div>
-      <Paper>
+    <Fragment>
         <Tabs>
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
+        <Tab icon={<SocialIcon network="facebook" style={{ height: 25, width: 25 }}/>} label="Facebook" />
+        <Tab icon={<SocialIcon network="instagram" style={{ height: 25, width: 25 }}/>} label="Instagram" />
+        <Tab icon={<SocialIcon network="snapchat" style={{ height: 25, width: 25 }}/>} label="Snapchat" />
         </Tabs>
-      </Paper>
-    </div>
+    </Fragment>
   );
 }
 

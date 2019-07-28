@@ -6,9 +6,6 @@ class Contact extends React.Component {
     return (
       <div>
         <div> Contact page </div>
-        <Button variant="contained" color="primary">
-          Hello World
-        </Button>
       </div>
     );
   }
