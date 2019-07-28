@@ -8,7 +8,7 @@ class Lost extends React.Component {
         <h1>404 - Sorry this page is not found</h1>
         <img src={bear_404} className="App-logo" alt="logo" />
       </div>
-    );
+    )
   }
 }
 
