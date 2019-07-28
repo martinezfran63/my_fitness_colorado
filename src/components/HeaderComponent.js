@@ -2,12 +2,17 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
+import Typography from "@material-ui/core/Typography";
 
 function HeaderComponent() {
   return (
     <Fragment>
       <AppBar position="static">
-        <Toolbar></Toolbar>
+        <Toolbar>
+          <Typography variant="headline" color="inherit">
+            My Fitness Colorado
+          </Typography>
+        </Toolbar>
       </AppBar>
       <ul>
         <li>
