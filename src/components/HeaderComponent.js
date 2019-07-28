@@ -4,6 +4,8 @@ import { AppBar, Toolbar } from  "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
 import logo from "../images/MyFitnessColoradoLogo.jpg";
 import styled from 'styled-components';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const HeaderImg = styled.div`
   background-image: url(${logo});
@@ -17,8 +19,13 @@ function HeaderComponent() {
     <Fragment>
       <AppBar position="static" style={{ background: '#ffffff' }}>
         <Toolbar>
+        <IconButton>
+            <MenuIcon />
+          </IconButton>
+          
+
           <HeaderImg></HeaderImg>
-          <Typography >
+          <Typography style={{ color: '#000000' }}>
             My Fitness Colorado
           </Typography>
 		  <ul>
