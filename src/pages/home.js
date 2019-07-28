@@ -7,25 +7,24 @@ class Home extends React.Component {
     return (
       <Grid container>
         <Grid item sm>
-        <Typography variant="h2" gutterBottom>
-        Find support and encouragement from the most positive community on the web.
-      </Typography>
+          <Typography variant="h2" gutterBottom>
+            Find support and encouragement from the most positive community on
+            the web.
+          </Typography>
 
-      <Typography variant="h6" gutterBottom>
-      Our community forum is a great place to share helpful workout and nutrition information and cheer each other on. Share tips, challenges and triumphs, results and progress with Fitness Blender members from all over the world.
-      </Typography>
+          <Typography variant="h6" gutterBottom>
+            Our community forum is a great place to share helpful workout and
+            nutrition information and cheer each other on. Share tips,
+            challenges and triumphs, results and progress with Fitness Blender
+            members from all over the world.
+          </Typography>
 
-      <Typography variant="subtitle2" gutterBottom>
-        Learn more here
-      </Typography>
-
-
+          <Typography variant="subtitle2" gutterBottom>
+            <a href="/workout">Learn more here</a>
+          </Typography>
         </Grid>
         <Grid item sm>
-
-            <img src={logo} className="App-logo" alt="logo" />
-
-
+          <img src={logo} className="App-logo" alt="logo" />
         </Grid>
       </Grid>
     );
