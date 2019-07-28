@@ -1,9 +1,8 @@
 import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
+import { AppBar, Toolbar } from  "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
-import logo from "../logo.svg";
+import logo from "../MyFitnessColorado_AppBar.jpg";
 
 function HeaderComponent() {
   return (
