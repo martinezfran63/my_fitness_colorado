@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 import { AppBar, Toolbar } from  "@material-ui/core";
 import Typography from "@material-ui/core/Typography";
-import logo from "../MyFitnessColorado_AppBar.jpg";
+import logo from "../images/MyFitnessColorado_AppBar.jpg";
 
 function HeaderComponent() {
   return (

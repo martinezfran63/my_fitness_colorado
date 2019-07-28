@@ -1,5 +1,5 @@
 import React from 'react';
-import bear_404 from "../bear-404.jpg";
+import bear_404 from "../images/bear-404.jpg";
 
 class Lost extends React.Component {
   render() {

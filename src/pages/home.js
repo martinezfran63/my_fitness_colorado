@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../rocky_mountains.jpg";
+import logo from "../images/rocky_mountains.jpg";
 import { Grid, Typography } from "@material-ui/core";
 
 class Home extends React.Component {
