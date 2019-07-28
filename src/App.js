@@ -1,17 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Workouts from './pages/workouts.js';
+import Nutrition from './pages/nutrition.js';
+import Contact from './pages/contact.js';
 import './App.css';
+
+
+
+const Home = () => (
+  <div> main page </div>
+  )
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/workouts" component={Workouts} />
+        <Route path="/nutrition" component={Nutrition} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
+    </Router>
   );
 }
 
 export default App;
+
