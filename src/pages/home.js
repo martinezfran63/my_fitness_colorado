@@ -6,7 +6,7 @@ class Home extends React.Component {
   render() {
     return (
       <Grid container>
-        <Grid item sm>
+        <Grid item sm style={{ margin: 15 }}>
           <Typography variant="h2" gutterBottom>
             Find support and encouragement from the most positive community on
             the web.
@@ -23,7 +23,7 @@ class Home extends React.Component {
             <a href="/workout">Learn more here</a>
           </Typography>
         </Grid>
-        <Grid item sm>
+        <Grid item sm style={{ margin: 15 }}> 
           <img src={logo} className="App-logo" alt="logo" />
         </Grid>
       </Grid>
