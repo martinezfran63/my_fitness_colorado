@@ -4,12 +4,12 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import {HeaderComponent, FooterComponent} from './components';
 import Workouts from "./pages/workouts.js";
 import Nutrition from "./pages/nutrition.js";
 import Contact from "./pages/contact.js";
 import Lost from "./pages/lost.js";
 import Home from "./pages/home.js";
-import HeaderComponent from "./components/HeaderComponent.js";
 import "./App.css";
 
 
@@ -25,6 +25,7 @@ class App extends React.Component {
           <Route path="/contact" component={Contact} />
           <Route component={Lost} />
         </Switch>
+        <FooterComponent />
       </Router>
     );
   }
